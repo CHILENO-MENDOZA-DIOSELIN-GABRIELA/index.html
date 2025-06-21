@@ -1,0 +1,17 @@
+.btn-primary {
+    background-color: #ff5733;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #343a40;
+    }
+}
